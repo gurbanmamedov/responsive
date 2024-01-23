@@ -1,0 +1,150 @@
+.faq {
+  width: 100%;
+  padding: 0px 16px;
+  width: 100%;
+  @media (min-width: 1360px) {
+    width: 1280px;
+  }
+  @media (min-width: 1920px) {
+    width: 1600px;
+  }
+
+  &__text {
+    width: 100%;
+    border-bottom: 1px solid var(--dark-12);
+    padding-bottom: 20px;
+  }
+
+  &__subtitle {
+    color: #797c86;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    @media (min-width: 1360px) {
+      font-size: 16px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 18px;
+    }
+  }
+
+  &__title {
+    color: #e4e4e6;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    @media (min-width: 1360px) {
+      font-size: 48px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 58px;
+    }
+  }
+
+  &__list {
+    width: 358;
+    margin-bottom: 80px;
+    @media (min-width: 1360px) {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 150px;
+    }
+    @media (min-width: 1920px) {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+      margin-bottom: 200px;
+    }
+  }
+
+  &__item {
+    padding: 20px 24px;
+    border-bottom: 1px solid var(--dark-12);
+    display: flex;
+    gap: 30px;
+    @media (min-width: 1360px) {
+      width: 640px;
+      padding: 24px 40px;
+    }
+    @media (min-width: 1920px) {
+      width: 800px;
+      padding: 30px 50px;
+    }
+  }
+
+  &__answers {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  &__question {
+    color: #afb0b6;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    @media (min-width: 1360px) {
+      font-size: 18px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 20px;
+    }
+  }
+
+  &__answer {
+    width: 310px;
+    color: #797c86;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    @media (min-width: 1360px) {
+      font-size: 16px;
+      width: 490px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 18px;
+      width: 600px;
+    }
+  }
+
+  &__item--top {
+    display: flex;
+    gap: 30px;
+    @media (min-width: 1360px) {
+      gap: 30px;
+    }
+    @media (min-width: 1920px) {
+      gap: 40px;
+    }
+  }
+
+  &__arrow {
+    color: #fff;
+    font-size: 18px;
+    @media (min-width: 1360px) {
+      font-size: 20px;
+    }
+    @media (min-width: 1920px) {
+      font-size: 24px;
+    }
+  }
+
+  &__item--hidden {
+    display: none;
+
+    @media (min-width: 1360px) {
+      display: flex;
+    }
+    @media (min-width: 1920px) {
+      display: flex;
+    }
+  }
+}
